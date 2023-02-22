@@ -23,38 +23,74 @@ body {
     position: relative;
     margin: auto;
     background: white;
-    padding: 25px;
-    border-radius: 3px;
+    padding: 40px;
+    border-radius: 30px; /* forma del borde */
     display: flex;
-    align-items: center;
-    gap: 20px;
+    align-items: flex-end; /*colocar una foto de imagen"first baseline" */
+    gap: 50px;
+    
 }
 .logo_img{
     width: 250px;
 }
 
 .form{
+
     padding: 10px;
+    
 }
 
+
+/*.form__usuario,*/
 
 
 .boton{
     background: rgb(0, 0, 0);
-    padding: 15px 30px;
+    padding: 15px 20px;
     color: red;
     border: no;
     cursor: pointer;
+    border-radius: 30px; 
+  
 }
+
+.boton1{
+  background: rgb(0, 0, 0);
+  padding: 15px 20px;
+  color: red;
+  border: no;
+  cursor: pointer;
+  border-radius: 30px; 
+
+}
+
 h1{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     color: rgb(248, 0, 0);
 }
+
 .form__boton{
     display: flex;
-    justify-content: flex-start;
+    padding: 15px;
+    justify-content: center;
+    
 }
+
+
+.form__boton1{
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
 .boton:hover{
     background: rgb(255, 255, 255);
+    padding: 10px;
 }
+
+.boton1:hover{
+  background: rgb(255, 255, 255);
+
+}
+
