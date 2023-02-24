@@ -113,3 +113,29 @@ h2,h3.h4,h5,h6{
  text-align:center;
  }
 
+ .footer {
+  background-color: black;
+  -webkit-padding-before: 50px;
+          padding-block-start: 50px;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-padding-after: 50px;
+          padding-block-end: 50px;
+}
+.footer__container {
+  width: 70%;
+}
+.footer__container p {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+.footer__container ul {
+  list-style: none;
+}
+.footer__container ul li {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
