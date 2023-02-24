@@ -32,20 +32,27 @@ body {
 }
 .logo_img{
     width: 250px;
+
 }
+
+
 
 .form{
 
     padding: 10px;
+    background: rgb(0, 0, 0);
+    padding: 15px 20px;
+    color: red;
+    border: no;
+    cursor: pointer;
+    border-radius: 30px; 
+  
     
 }
 
 
-/*.form__usuario,*/
-
-
 .boton{
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     padding: 15px 20px;
     color: red;
     border: no;
@@ -55,7 +62,7 @@ body {
 }
 
 .boton1{
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   padding: 15px 20px;
   color: red;
   border: no;
@@ -93,4 +100,16 @@ h1{
   background: rgb(255, 255, 255);
 
 }
+
+
+
+
+
+h2,h3.h4,h5,h6{
+
+  padding: 1px ;
+ font-size:  0.5rem;
+ color: antiquewhite;
+ text-align:center;
+ }
 
