@@ -73,6 +73,13 @@ body{
     margin-bottom: 45px;
 
 }
+.header-txt input{
+ color: white;
+
+}
+
+
+
 
 .header-txt h1,h2,span,h3 {
 
@@ -159,3 +166,31 @@ body{
     text-transform: uppercase;
 }
 
+.footer {
+    background-color: rgb(24, 23, 23);
+    -webkit-padding-before: 40px;
+            padding-block-start: 50px;
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -webkit-padding-after: 50px;
+            padding-block-end: 50px;
+  }
+  .footer__container {
+    width: 70%;
+  }
+  .footer__container p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+  .footer__container ul {
+    list-style: none;
+  }
+  .footer__container ul li {
+    font-size: 15
+    px;
+    color: white;
+    text-align: center;
+  }
+  
