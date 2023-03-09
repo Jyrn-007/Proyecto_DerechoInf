@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #1F1F1F;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.menu{
+
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     z-index: 1000;
+
+
+}
+
+
+
+
+
+
+
+.menu .barnav ul li{
+    position: relative;
+    float:left;
+  font-size: 19px;
+  padding: 18px;
+  color: rgb(171, 28, 184);
+ 
+}
+
+
+
+.menu .barnav ul li a:hover{
+ color:#cf2d3a;
+}
+
+#menu{
+    display: none;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+
+}
+
+.header-txt{
+    text-align: center;
+    margin-bottom: 45px;
+
+}
+.header-txt input{
+ color: white;
+
+}
+
+
+
+
+.header-txt h1,h2,span,h3 {
+
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #cf2d3a;
+    margin-bottom: 15px;
+}
+
+.header-txt span{
+    font-size: 25px;
+}
+
+.header-txt p{
+    color: #cccccc;
+    padding: 0 250px;
+    margin: 25px 0;
+}
+
+
+.btn1{
+
+    padding: 11px 25px;
+    background-color: #d82e37;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 30px ;
+    border-radius: 10px; 
+  
+}
+
+.btn2{
+ 
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #d82e37;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 30px ;
+    border-radius: 10px; 
+  
+}
+
+
+.btn1:hover{
+    background-color: #b427b4;
+    
+
+}
+
+
+
+
+
+.btn2:hover{
+    background-color: navy;
+    
+
+}
+
+
+.header-direc{
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.dir h3{
+    font-size: 19px;
+    color:white;
+    text-transform: uppercase;
+}
+
+.dir p{
+    font-size: 18px; 
+    color:white;
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: rgb(24, 23, 23);
+    -webkit-padding-before: 40px;
+            padding-block-start: 50px;
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -webkit-padding-after: 50px;
+            padding-block-end: 50px;
+  }
+  .footer__container {
+    width: 70%;
+  }
+  .footer__container p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
+  .footer__container ul {
+    list-style: none;
+  }
+  .footer__container ul li {
+    font-size: 15
+    px;
+    color: white;
+    text-align: center;
+  }
+  

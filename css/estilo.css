@@ -105,17 +105,17 @@ h1{
 
 
 
-h2,h3.h4,h5,h6{
+h4{
 
-  padding: 1px ;
- font-size:  0.5rem;
- color: antiquewhite;
+  padding: 5px ;
+ font-size:  1rem;
+ color: red;
  text-align:center;
  }
 
  .footer {
   background-color: black;
-  -webkit-padding-before: 50px;
+  -webkit-padding-before: 40px;
           padding-block-start: 50px;
   display: -ms-grid;
   display: grid;
@@ -135,7 +135,8 @@ h2,h3.h4,h5,h6{
   list-style: none;
 }
 .footer__container ul li {
-  font-size: 15px;
+  font-size: 15
+  px;
   color: white;
   text-align: center;
 }
