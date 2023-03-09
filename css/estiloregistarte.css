@@ -48,7 +48,7 @@
  .AreadeRegistro{
   display: grid;
   place-self: center;
-  height: 30vh;
+  height: 35vh;
   
  }
  .AreadeRegistro .form__boton {
