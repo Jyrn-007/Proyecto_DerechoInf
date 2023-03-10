@@ -50,6 +50,11 @@
   height: 35vh;
   
  }
+ .AreadeRegistro .form{
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+ }
  .AreadeRegistro .form__boton {
   background: rgb(0, 0, 0);
   margin-block-start: 10px;
@@ -68,16 +73,4 @@
     background: rgb(255, 255, 255);
   
   }
-  
-  h4{
-    text-align: f;
-    padding: 1px;
-    color: black;
-  }
-
-    
-  h5{
-    text-align: f;
-    padding: 1px;
-    color: black;
-  }
+ 
