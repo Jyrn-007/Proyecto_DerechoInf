@@ -19,14 +19,14 @@ body {
 }
 
 .container{
-    width: 600px;
+    width: 85vh;
     position: relative;
     margin: auto;
     background: white;
     padding: 40px;
     border-radius: 30px; /* forma del borde */
     display: flex;
-    align-items: flex-end; /*colocar una foto de imagen"first baseline" */
+    align-items: center;
     gap: 50px;
     
 }
@@ -36,82 +36,74 @@ body {
 }
 
 
-
+.AreaInicioSecio{
+  display: grid;
+  place-self: center;
+  height: 35vh;
+}
 .form{
-
-    padding: 10px;
-    background: rgb(0, 0, 0);
-    padding: 15px 20px;
-    color: red;
-    border: no;
-    cursor: pointer;
+  display: grid;
+  justify-items: center;
+    height: 25vh;
+    gap: 10px;
     border-radius: 30px; 
   
     
 }
 
+input[type="text"]:focus {
+  outline: none;
+  border: 2px solid #B82601;
+  box-shadow: 0px 0px 5px black;
+  text-align: center;
+  font-size: 2.5vh;
+}
 
-.boton{
-    background: rgb(255, 255, 255);
-    padding: 15px 20px;
-    color: red;
-    border: no;
-    cursor: pointer;
-    border-radius: 30px; 
+.Title_form{
+  font-size: 3vh;
+  color: #B82601;
+}
+
+
+.botonAccesar{
+  background: rgb(0, 0, 0);
+  margin-block-start: 10px;
+  padding: 3px 30px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
   
 }
 
-.boton1{
-  background: rgb(255, 255, 255);
-  padding: 15px 20px;
-  color: red;
-  border: no;
+.botonRegistrarse{
+  background: rgb(0, 0, 0);
+  margin-block-start: 10px;
+  padding: 3px 25px;
+  color: white;
+  border: none;
   cursor: pointer;
-  border-radius: 30px; 
+  border-radius: 15px;
 
 }
 
 h1{
     text-align: center;
     padding: 10px;
-    color: rgb(248, 0, 0);
-}
-
-.form__boton{
-    display: flex;
-    padding: 15px;
-    justify-content: center;
-    
-}
-
-
-.form__boton1{
-  display: flex;
-  padding: 10px;
-  justify-content: flex-end;
-}
-
-.boton:hover{
-    background: rgb(255, 255, 255);
-    padding: 10px;
-}
-
-.boton1:hover{
-  background: rgb(255, 255, 255);
-
+    color: #B82601;
 }
 
 
 
+.botonAccesar:hover{
+    background: #B82601;
+}
 
+.botonRegistrarse:hover{
+  background: #B82601;
 
-h4{
+}
 
-  padding: 5px ;
- font-size:  1rem;
- color: red;
- text-align:center;
- }
 
  .footer {
   background-color: black;
