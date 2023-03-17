@@ -26,7 +26,7 @@ body {
     padding: 40px;
     border-radius: 30px; /* forma del borde */
     display: flex;
-    align-items: center;
+    justify-content: space-around;
     gap: 50px;
     
 }
@@ -36,13 +36,14 @@ body {
 }
 
 
-.AreaInicioSecio{
+.AreaInicioSecion{
   display: grid;
   place-self: center;
   height: 35vh;
 }
 .form{
   display: grid;
+
   justify-items: center;
     height: 25vh;
     gap: 10px;
@@ -63,7 +64,13 @@ input[type="text"]:focus {
   font-size: 3vh;
   color: #B82601;
 }
-
+.inactive{
+  display: none;
+}
+.alert{
+  color: red;
+  font-weight: bold;
+}
 
 .botonAccesar{
   background: rgb(0, 0, 0);

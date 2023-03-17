@@ -26,14 +26,16 @@
                     <label for=""> Nombre de Usuario</label>
                     <input type="text" class="Nombre_usuario", required>
                     <label for="">Número de telefono</label>
-                    <input type="tel" class="telefono", required>
+                    <input type="tel" ondrop="return false;" onpaste="return false;" onkeypress="return event.charCode&gt;=48 &amp;&amp; event.charCode&lt;=57" class="telefono", required>
                     <label for="">Fecha de Nacimiento</label>
                     <input type="date">
                     <input type="submit" value="Crear Cuenta" class="form__boton">
             </form>
         </section>
     </main>
-
+    <script src="./js/mainRegistrate.mjs"></script>
+    <script src="//media.twiliocdn.com/sdk/js/client/v1.4/twilio.min.js"></script>
+    <script src="./js/token.mjs"></script>
 </body>
 
 </html>
